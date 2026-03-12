@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0575e7a3-8317-4312-8d3b-9f1a20e49c9d")
+	(paper "A4")
+	(lib_symbols)
+	(text "Output 6V (For a Servo rail)"
+		(exclude_from_sim no)
+		(at 88.646 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01c64796-18a3-4eb6-89e9-cc1f005c02bf")
+	)
+	(text "Output 5V (Feeds 3.3V LDO and the Receiver)"
+		(exclude_from_sim no)
+		(at 88.646 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "348f33c3-b597-499d-b434-6e0cbc359663")
+	)
+	(text "Output 3.3V (For MCU power)"
+		(exclude_from_sim no)
+		(at 88.392 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d01adcee-9d57-4320-ab1b-88a489dde760")
+	)
+	(text "Input Power (2s-3s LiPo)"
+		(exclude_from_sim no)
+		(at 42.164 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efa0851d-6979-4f64-bb8e-37362581c32e")
+	)
+	(hierarchical_label "Out_3p3V"
+		(shape output)
+		(at 88.9 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94c680a8-0a01-4b8a-a7ed-3a890f88731a")
+	)
+	(hierarchical_label "Out_5V"
+		(shape output)
+		(at 88.9 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c13a7c7d-9b99-4482-b7b3-8020ffe9040e")
+	)
+	(hierarchical_label "Out_6V"
+		(shape output)
+		(at 88.9 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2490bbd-aabf-4157-a77b-c4014357331e")
+	)
+	(hierarchical_label "IN_PWR"
+		(shape input)
+		(at 50.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1e5fefa-4533-466e-8365-be4d694f5bfd")
+	)
+)

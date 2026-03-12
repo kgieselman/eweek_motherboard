@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "10e04250-7565-46e6-abae-e0aaa0dfd2ff")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "fwd"
+		(shape input)
+		(at 50.8 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "105ab11a-b43d-45a7-9fc3-f39dae27461b")
+	)
+	(hierarchical_label "rev"
+		(shape input)
+		(at 50.8 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21a37508-dac5-486f-81f8-af9e163a9544")
+	)
+	(hierarchical_label "out_a"
+		(shape output)
+		(at 76.2 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "579fe9ba-c49e-4d05-84a6-6370ae7599c1")
+	)
+	(hierarchical_label "enable"
+		(shape input)
+		(at 50.8 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4da37c4-f583-455e-b748-e5534e003f0c")
+	)
+	(hierarchical_label "out_b"
+		(shape output)
+		(at 76.2 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfd213ea-a83a-48c4-ba36-f9703247abb6")
+	)
+	(hierarchical_label "in_Vmotor"
+		(shape input)
+		(at 50.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed893092-7f95-4cce-8e06-7c66f812d21d")
+	)
+)
